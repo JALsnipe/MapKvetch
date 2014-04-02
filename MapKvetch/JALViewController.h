@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface JALViewController : UIViewController
+@property (weak, nonatomic) IBOutlet MKMapView *myMapview;
 
+//- (void)setUserTrackingMode:(MKUserTrackingMode)mode animated:(BOOL)animated NS_AVAILABLE(NA, 5_0);
+//- (void)setUserTrackingMode:(MKUserTrackingMode)mode animated:(BOOL)animated;
 @end

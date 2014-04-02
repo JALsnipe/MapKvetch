@@ -21,6 +21,8 @@
 		6CF6743F18EBA99C00C34CA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF6742118EBA99C00C34CA6 /* UIKit.framework */; };
 		6CF6744718EBA99C00C34CA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF6744518EBA99C00C34CA6 /* InfoPlist.strings */; };
 		6CF6744918EBA99C00C34CA6 /* MapKvetchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF6744818EBA99C00C34CA6 /* MapKvetchTests.m */; };
+		6CF6745318EBA9D000C34CA6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF6745218EBA9D000C34CA6 /* MapKit.framework */; };
+		6CF6745618EBB43600C34CA6 /* JALAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF6745518EBB43600C34CA6 /* JALAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		6CF6744418EBA99C00C34CA6 /* MapKvetchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapKvetchTests-Info.plist"; sourceTree = "<group>"; };
 		6CF6744618EBA99C00C34CA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CF6744818EBA99C00C34CA6 /* MapKvetchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKvetchTests.m; sourceTree = "<group>"; };
+		6CF6745218EBA9D000C34CA6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6CF6745418EBB43600C34CA6 /* JALAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JALAnnotation.h; sourceTree = "<group>"; };
+		6CF6745518EBB43600C34CA6 /* JALAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JALAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF6745318EBA9D000C34CA6 /* MapKit.framework in Frameworks */,
 				6CF6742018EBA99C00C34CA6 /* CoreGraphics.framework in Frameworks */,
 				6CF6742218EBA99C00C34CA6 /* UIKit.framework in Frameworks */,
 				6CF6741E18EBA99C00C34CA6 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		6CF6741C18EBA99C00C34CA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CF6745218EBA9D000C34CA6 /* MapKit.framework */,
 				6CF6741D18EBA99C00C34CA6 /* Foundation.framework */,
 				6CF6741F18EBA99C00C34CA6 /* CoreGraphics.framework */,
 				6CF6742118EBA99C00C34CA6 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				6CF6742F18EBA99C00C34CA6 /* Main.storyboard */,
 				6CF6743218EBA99C00C34CA6 /* JALViewController.h */,
 				6CF6743318EBA99C00C34CA6 /* JALViewController.m */,
+				6CF6745418EBB43600C34CA6 /* JALAnnotation.h */,
+				6CF6745518EBB43600C34CA6 /* JALAnnotation.m */,
 				6CF6743518EBA99C00C34CA6 /* Images.xcassets */,
 				6CF6742418EBA99C00C34CA6 /* Supporting Files */,
 			);
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF6745618EBB43600C34CA6 /* JALAnnotation.m in Sources */,
 				6CF6742E18EBA99C00C34CA6 /* JALAppDelegate.m in Sources */,
 				6CF6743418EBA99C00C34CA6 /* JALViewController.m in Sources */,
 				6CF6742A18EBA99C00C34CA6 /* main.m in Sources */,
