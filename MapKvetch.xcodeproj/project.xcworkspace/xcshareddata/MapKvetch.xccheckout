@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD1E53B4-BAF7-4B2B-9668-9AFF303B7611</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MapKvetch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8E6883F-399F-4811-B90F-5384A12D3AFB</key>
+		<string>https://github.com/JALsnipe/MapKvetch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MapKvetch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8E6883F-399F-4811-B90F-5384A12D3AFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JALsnipe/MapKvetch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8E6883F-399F-4811-B90F-5384A12D3AFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8E6883F-399F-4811-B90F-5384A12D3AFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MapKvetch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
