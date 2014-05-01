@@ -18,6 +18,8 @@
 #define JTS_LON -73.960588;
 
 // Goldsmith coordinates
+#define GOL_LAT 40.811160
+#define GOL_LON -73.961073
 
 // 102 Hester St
 #define HESTER_LAT 40.716676;
@@ -26,6 +28,14 @@
 // Tenement Museum
 #define TEN_LAT 40.718767;
 #define TEN_LON -73.990025
+
+// Jewish Daily Forward
+#define FOR_LAT 40.706702
+#define FOR_LON -74.006446
+
+// High School of Art and Design
+#define ART_LAT 40.758853
+#define ART_LON -73.966285
 
 // Span
 #define THE_SPAN 0.003f;
@@ -68,7 +78,7 @@
     location.longitude = JTS_LON;
     myAnn.coordinate = location;
     myAnn.title = @"JTS";
-    myAnn.subtitle = @"#welcome2jtsa";
+    myAnn.subtitle = @"The start of it all";
     [locations addObject:myAnn];
     
     // Hester St annotation
@@ -76,8 +86,8 @@
     location.latitude = HESTER_LAT;
     location.longitude = HESTER_LON;
     myAnn.coordinate = location;
-    myAnn.title = @"102 Hester St";
-    myAnn.subtitle = @"Birthplace of Jacob Epstein";
+    myAnn.title = @"Hester St";
+    myAnn.subtitle = @"Location of Cahan's Yekl";
     [locations addObject:myAnn];
     
     // Tenement Museum annotation
@@ -87,6 +97,24 @@
     myAnn.coordinate = location;
     myAnn.title = @"Tenement Museum";
     myAnn.subtitle = @"Museum on America's Urban Immigrant History";
+    [locations addObject:myAnn];
+    
+    // Goldsmith annotation
+    myAnn = [[JALAnnotation alloc] init];
+    location.latitude = GOL_LAT;
+    location.longitude = GOL_LON;
+    myAnn.coordinate = location;
+    myAnn.title = @"Goldsmith Hall";
+    myAnn.subtitle = @"My Jewish home away from home";
+    [locations addObject:myAnn];
+    
+    // Jewish Daily Forward annotation
+    myAnn = [[JALAnnotation alloc] init];
+    location.latitude = FOR_LAT;
+    location.longitude = FOR_LON;
+    myAnn.coordinate = location;
+    myAnn.title = @"Jewish Daily Forward Office";
+    myAnn.subtitle = @"Yiddish Newspaper and Jewish Culture";
     [locations addObject:myAnn];
     
     [self.myMapview addAnnotations:locations];
