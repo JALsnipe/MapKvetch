@@ -117,6 +117,15 @@
     myAnn.subtitle = @"Yiddish Newspaper and Jewish Culture";
     [locations addObject:myAnn];
     
+    // High School of Art and Design
+    myAnn = [[JALAnnotation alloc] init];
+    location.latitude = ART_LAT;
+    location.longitude = ART_LON;
+    myAnn.coordinate = location;
+    myAnn.title = @"High School of Art and Design";
+    myAnn.subtitle = @"Art Spiegelman";
+    [locations addObject:myAnn];
+    
     [self.myMapview addAnnotations:locations];
     
     // Old annotation code for single pin
